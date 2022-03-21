@@ -1,11 +1,9 @@
 {
   "name": "@psperber/eslint-config",
-  "version": "1.0.0",
-  "main": "base.js",
+  "version": "1.0.1",
+  "main": "index.js",
   "files": [
-    "base.js",
-    "browser.js",
-    "node.js"
+    "index.js"
   ],
   "scripts": {
     "lint": "eslint *.js",
