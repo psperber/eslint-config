@@ -1,0 +1,30 @@
+{
+  "name": "@psperber/eslint-config",
+  "version": "1.0.0",
+  "main": "base.js",
+  "files": [
+    "base.js",
+    "browser.js",
+    "node.js"
+  ],
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psperber/eslint-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
