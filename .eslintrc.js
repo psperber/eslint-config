@@ -1,6 +1,3 @@
 module.exports = {
-    extends: require.resolve("./index.js"),
-    env: {
-        "node": true,
-    },
+    extends: require.resolve("./node.js"),
 };

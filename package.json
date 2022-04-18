@@ -1,9 +1,11 @@
 {
   "name": "@psperber/eslint-config",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "base.js",
   "files": [
-    "index.js"
+    "base.js",
+    "browser.js",
+    "node.js"
   ],
   "scripts": {
     "lint": "eslint *.js",
@@ -20,9 +22,9 @@
     "eslint": ">= 3"
   },
   "dependencies": {
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.26.0"
   },
   "devDependencies": {
-    "eslint": "^8.11.0"
+    "eslint": "^8.13.0"
   }
 }
